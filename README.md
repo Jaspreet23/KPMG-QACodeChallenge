@@ -9,10 +9,10 @@
  *Web Browser Responsive Design with view ports configuration
  
  ###### Before start
- Install dotnet SDK: https://dotnet.microsoft.com/download
- Install Yarn package manager: https://classic.yarnpkg.com/en/docs/install
- Install Cypress
- > npm install cypress --save-dev
+ * Install dotnet SDK: https://dotnet.microsoft.com/download
+ * Install Yarn package manager: https://classic.yarnpkg.com/en/docs/install
+ * Install Cypress
+    * > npm install cypress --save-dev
  
  NB: Current app has been tested with:
  node: v10.16.0
@@ -34,12 +34,12 @@
  > yarn cypress run
  
  ## API Unit tests:  
- Open api project in Visual Studio
- Run the tests from Tests
+* Open api project in Visual Studio
+* Run the tests from Tests
  
  
   ###### **Reference Links:
  
- https://spin.atomicobject.com/2019/04/24/react-integer-input/
- https://testautomationu.applitools.com/cypress-tutorial/chapter7.html
- https://docs.cypress.io/faq/questions/using-cypress-faq.html
+ * https://spin.atomicobject.com/2019/04/24/react-integer-input/
+ * https://testautomationu.applitools.com/cypress-tutorial/chapter7.html
+ * https://docs.cypress.io/faq/questions/using-cypress-faq.html
