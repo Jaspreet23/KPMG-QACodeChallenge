@@ -1,4 +1,5 @@
-#Mock Test - BDD Cucumber Nightwatch Test Automation Framework
+#**Mock Test - BDD Cucumber Nightwatch Test Automation Framework
+
  The application consists of two projects - UI (React SPA) and API (ASP.Net Core).
  
  ##UI Integration tests:  
@@ -33,10 +34,12 @@
  > yarn cypress run
  
  ##API Unit tests:  
-  
-
+ Open api project in Visual Studio
+ Run the tests from Tests
  
- Reference Links:
+ 
+  ######**Reference Links:
+ 
  https://spin.atomicobject.com/2019/04/24/react-integer-input/
  https://testautomationu.applitools.com/cypress-tutorial/chapter7.html
  https://docs.cypress.io/faq/questions/using-cypress-faq.html
