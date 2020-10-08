@@ -15,6 +15,13 @@ namespace api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             services.AddMvc()
                 .AddNewtonsoftJson();
 
@@ -33,10 +40,14 @@ namespace api
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors("MyPolicy");
+
             app.UseForwardedHeaders();
             app.UseDeveloperExceptionPage();
             app.UseRouting();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+
+            app.UseMvc();
         }
     }
 }
