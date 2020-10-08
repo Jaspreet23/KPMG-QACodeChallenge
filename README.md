@@ -1,4 +1,4 @@
-#**Mock Test - BDD Cucumber Nightwatch Test Automation Framework
+#Mock Test - BDD Cucumber Nightwatch Test Automation Framework
 
  The application consists of two projects - UI (React SPA) and API (ASP.Net Core).
  
