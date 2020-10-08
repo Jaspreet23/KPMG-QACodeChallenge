@@ -24,7 +24,7 @@ export const Fibonacci = () => {
         }
    }
   return (
-        <Layout pageId="fib">
+        <Layout pageId="fibonacci">
             <p id="content-fibo-header">
                Calculate n-th Fibonacci number - Fib(n)
             </p>
