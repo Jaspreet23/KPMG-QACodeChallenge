@@ -38,7 +38,7 @@
 * Run the tests from Tests
  
  
-  ###### **Reference Links:
+ ###### Reference Links:
  
  * https://spin.atomicobject.com/2019/04/24/react-integer-input/
  * https://testautomationu.applitools.com/cypress-tutorial/chapter7.html
