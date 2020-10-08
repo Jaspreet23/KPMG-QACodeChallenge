@@ -27,7 +27,7 @@
  This will download the latest template source code
  
  How to run Cypress tests from command line
- > cd to root ot automationFramework project directory
+ > cd to root of automationFramework project directory
  > yarn cypress open
  
  To run all tests with Cypress
